@@ -1,0 +1,7 @@
+.appbar {
+  /* width: 100vw , */
+  display: flex ;
+  flex-direction: row ;
+  height:min(100px,10vh) 
+  
+}
