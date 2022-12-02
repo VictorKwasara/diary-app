@@ -26,14 +26,14 @@ let theme = createTheme({
   },
 	palette: {
 		primary: {
-			main: "#F34213",
+			main: "#402E32",
 		},
 		secondary: {
-			main: "#402E32",
+			main: "#FED668",
 		},
 	},
 });
-
+// "#F34213"
 theme = responsiveFontSizes(theme);
 
 const Theme: FC<{children: ReactNode}> = ({children}) => {

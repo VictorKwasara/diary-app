@@ -5,12 +5,12 @@ import Header from "./Header"
 
 const Layout: FC<{children: ReactNode}>  = ({children}) => {
   return(
-    
+    <Connection>
       <Theme>
-        <Header/><Connection>
-       {children} </Connection>
+        <Header/>
+       {children} 
       </Theme>
-     
+     </Connection>
 )}
 
 export default Layout
